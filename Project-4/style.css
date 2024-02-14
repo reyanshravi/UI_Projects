@@ -1,0 +1,72 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-container{
+    padding: 10px 180px;
+}
+
+/* CSS for navbar */
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+img[alt="brand-logo"]{
+    height: 30px;
+}
+.grow-list{
+    position: relative;
+    left: -20%;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+}
+.nav-button{
+    height: 35px;
+    padding: 0px 20px;
+    background-color: #5955B3;
+    border: 0px;
+    border-radius: 10px;
+    color: #fff;
+}
+li+.list-item{
+    color: #aca9b3;
+}
+.list-item{
+    width: 70px;
+    font-size: 13px;
+}
+
+/* CSS for banner */
+.banner-container{
+    display: flex;
+    padding-left: 185px;
+}
+h1{
+    width: 55%;
+    font-size: 50px;
+    color: #3C2F60;
+    font-weight: 500;
+    line-height: 60px;
+}
+p{
+    width: 55%;
+    color: #aca9b3;
+    margin-bottom: 40px;
+}
+span{
+    color: #5955B3;
+}
+
+/* CSS for background Image */
+.fix{
+    position: relative;
+    float: right;
+}
+.fix img{
+    z-index: -1;
+    height: 400px;
+    float: right;
+}

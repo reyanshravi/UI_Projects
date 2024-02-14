@@ -1,0 +1,98 @@
+body, html{
+    font-family: 'Poppins', Montserrat, sans-serif;
+    height: 100%;
+    margin: 0%;
+    background-position: center;
+}
+
+.container{
+    background-image: url(./assets/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    background-position: bottom;
+}
+
+
+.navbar , ul{
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(22, 22, 22);
+}
+
+.logo{
+  height: 25px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.line{
+  border-left: 1px solid rgb(172, 172, 172);
+  margin-left: 30px;
+  top: 0;
+}
+.navbar{
+  padding: 10px;
+}
+
+.list{
+   list-style-type: none;
+}
+
+.list-item{
+  padding-left: 30px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.button-small{
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-size: 12;
+  font-weight: 600;
+  margin-top: 11px;
+  position: absolute;
+  right: 100px;
+  background-color: rgb(207, 48, 207);
+  border: transparent;
+}
+
+.hero{
+  text-align: center;
+  color: #fff;
+  align-items: center;
+}
+
+.hero-heading{
+  margin-left: auto;
+  margin-right: auto;
+  width: 53%;
+  margin-top: 50px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.button-large{
+  color: #fff;
+  background-color: rgb(179, 29, 179) ;
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.hero-description{
+  font-size: 18px;
+  margin-top: -25px;
+}
+
+.arrow {
+  border: solid rgb(252, 252, 252);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+  margin-left: 2px;
+}

@@ -1,0 +1,121 @@
+*{
+    font-family:Orbitron ;
+    color: black;
+}
+
+.container{
+    padding: 20px 70px;
+}
+
+/* Navbar section css */
+nav, ul, .button-group, .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img[alt="brand-logo"]{
+    height: 30px;
+}
+.list-item{
+    padding: 0px 20px;
+    list-style-type: none;
+    font-weight: 700;
+}
+.list-item:first-child{
+    font-weight: 900;
+    font:bolder;
+    position: relative;
+    z-index : 1;
+}
+.list-item:first-child::after{
+    content : "";
+    position: absolute;
+    left    : 27px;
+    bottom  : 0;
+    margin: 0 auto;
+    width   : 40%;  /* or 100px */
+    border-bottom:2px solid black;
+}
+.search-icon svg{
+    height: 20px;
+}
+.nav-button{
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+/* Hero section CSS */
+img[alt="square-pattern"]{
+    position: relative;
+    left: 78px;
+    top: 140px;
+    height: 300px;
+}
+img[alt="start-pattern"]{
+    position: relative;
+    top:-110px;
+    left: 840px;
+    height: 50px;
+}
+img[alt="globe-pattern"]{
+    position: relative;
+    height: 50px;
+    top: -160px;
+    left: 280px;
+}
+img[alt="person-hero-iamge"]{
+    height: 400px;
+    position: relative;
+    top:40px;
+    left: -400px;
+}
+
+/* Description section */
+.hero-container-right{
+    position: relative;
+    text-align: center;
+    top: 90px;
+    left: -200px;
+}
+h1{
+    font-size: 35px;
+    width: 100%;
+}
+.hero-description{
+    font-family: 'Orbitron';
+    font-size: 10px;
+    letter-spacing:1px;
+    line-height: 16px;
+    font-weight: 100;
+    flood-color: grey;
+    padding-bottom: 50px;
+}
+.button-email{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px 20px;
+}
+.button-join{
+    color: #fff;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px 3px;
+    margin-left: 5px;
+}
+.icon{
+    padding-top: 40px;
+}
+.contact-heading{
+    padding-top: 20px;
+    font-family:'Orbitron' ;
+    color: rgb(85, 84, 84);
+    font-size: 15px;
+}
+.icons img{
+    height: 30px;
+}

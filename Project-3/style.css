@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+
+.grey{
+    color: #828078;
+}
+.dark-grey{
+    color: #C7C6C3;
+}
+.white{
+    color: #FAF9F7;
+}
+
+.container{
+  padding: 30px 120px;
+  background-color: #292720;
+}
+.btn{
+    padding: 10px 20px;
+    border: 2px solid #62592B;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #62592B;
+    font-size: 15px;
+    font-weight: 800;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navbar CSS */
+.logo{
+  height: 40px;
+}
+.list li{
+  list-style-type: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/* CSS for Content */
+.content{
+    padding-top: 80px;
+}
+.content h2{
+    font-size: 70px;
+}
+.content p{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.img img{
+    background-size: 100% 100%;
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: -1;
+}

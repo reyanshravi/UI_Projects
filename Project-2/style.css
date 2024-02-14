@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+  background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.container{
+  background: rgba(32,42,68,0.8);
+  height: 100vh;
+  width: 100%;
+}
+
+/* Navbar CSS */
+.navbar{
+  display: flex;
+  padding: 30px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  height: 40px;
+}
+ul{
+  display: flex;
+}
+.list li{
+  list-style-type: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #FFC233;
+}
+.button-small{
+  color: #fff;
+  background-color: #FF505F;
+  border: 0px;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+
+/* CSS for Context */
+.hero{
+  text-align: center;
+}
+.hero-heading{
+  position: relative;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  font-size: 80px;
+  color: #FFC233;
+}
+.button-large{
+  background-color: #FF505F;
+  border: 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 40px ;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 30px;
+}
+
+
+/* CSS for image */
+.fix{
+  height: 150px;
+  position:fixed;
+  bottom:3%;
+  right: 5%;
+}
