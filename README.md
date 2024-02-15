@@ -1,4 +1,3 @@
-# UI_Projects
 
 # HTML & CSS Projects README
 
