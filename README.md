@@ -31,8 +31,5 @@ Refer to the individual README files within each project folder for specific fea
 ## Contributing
 Contributions to individual projects or improvements to the overall repository structure are welcome. If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request.
 
-## License
-Each project within this repository is typically licensed under the MIT License unless otherwise specified. Refer to the LICENSE file within each project folder for licensing details specific to that project.
-
 ## Contact
 For any inquiries or support regarding this repository or any of the projects within it, please reach out to ravi8298922623@gmail.com.
