@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@media screen and (max-width: 1070px) {
+  .container{
+    display: none;
+  }
+}
+@media screen and (min-width: 1070px) {
+  .hide {
+    display: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  color: #fff;
+}
+body{
+  background-image: url(../images/background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+/* CSS for Context */
+
+
+/* CSS for fixed two boxes */
